@@ -1,0 +1,34 @@
+
+You will receive a list of Cards on a single line separated by", ". On the next line, you will receive a number n. On
+
+the next n lines, you will receive commands that could be:
+
+* "Add, {CardName}":
+© Add the given card to the card deck and print: "Card successfully added”
+© Ifitis already in the deck, print: "Card is already in the deck”
+* "Remove, {CardName}":
+© Remove the given card from the card deck and print: "Card successfully removed"
+© Ifitis notin the deck, print: "Card not found”
+* "Remove At, {index}":
+© Remove the card at the given index and print: "Card successfully removed"
+© If the index is not in the range of the list, print: "Index out of range"
+* “Insert, {index}, {CardName}":
+© Add the card at the given index and print: "Card successfully added"
+© Ifthe index is out of range, print: "Index out of range"
+© If the index is in range, but the card is already in the deck, print: card is already added"
+
+Input
+
+* The first input line will contain the list of cards.
+© The second input will be the number of commands — an integer number in the range [0...50].
+
+© Onthe following input lines, you will be receiving commands.
+
+Output
+
+* After going through all the commands, you need to print all cards on a single line separated by", ".
+
+ 
+
+Page 1 of 2 100% Give Feedback to Microsoft
+
